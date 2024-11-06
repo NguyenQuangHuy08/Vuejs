@@ -1,0 +1,37 @@
+Hướng dẫn chạy và tạo một dự án liên quan đến Vuejs
+
+
+b1: Khởi tạo dự án : 
+	npm create vue@latest
+
+b2: Cài đặt thêm thư viện cho dự án 
+	npm install
+
+b3: Chạy dự án Vuejs
+	npm run dev
+
+--- Thêm bootstrap vào dự án
+	npm install bootstrap @popperjs/core chạy terminal
+        import thêm thư viện vào main.js
+
+	import 'bootstrap/dist/css/bootstrap.min.css';
+	import 'bootstrap';
+
+----Thêm json server để call api
+	b1: Chạy terminal:  npm i -g  json-server@0.17.4 
+	b2: Tạo file db.json
+	b3: Chạy terminal:  json-server --watch db.json	
+
+
+----Cài đặt 
+	Cài axios: npm i axios
+
+
+Cách sử dụng v-for
+
+   <li v-for="(user, index) in nameUsers" :key="index">
+          {{ user }}
+        </li>
+
+
+path dùng để thay đổi
